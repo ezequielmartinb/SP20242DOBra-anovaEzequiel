@@ -641,6 +641,7 @@ document.getElementById('agregar').addEventListener('click', function()
     document.getElementById("agregarAbm").style.display = 'block';  
     document.getElementById("modificarAbm").style.display = 'none';    
     document.getElementById("eliminarAbm").style.display = 'none'; 
+    CambiarAtributos();
 });
 document.getElementById('agregarAbm').addEventListener('click', function() 
 {
