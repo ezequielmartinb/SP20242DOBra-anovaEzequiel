@@ -393,7 +393,6 @@ function ObtenerDatosFila(fila, accion)
     }
     else if(accion == 'eliminar')
     {
-        console.log("entre a este if");
         document.getElementById("agregarAbm").style.display = 'none';  
         document.getElementById("modificarAbm").style.display = 'none';    
         document.getElementById("eliminarAbm").style.display = 'block';   
